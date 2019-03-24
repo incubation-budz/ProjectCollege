@@ -58,6 +58,7 @@ class User extends Authenticatable
     {
         return $this->roles()->where('slug',$roleSlug)->count()==1;
     }
+<<<<<<< HEAD
 
     public function posts()
     {
@@ -69,4 +70,6 @@ class User extends Authenticatable
         return $this->hasMany(NewsEvent1::class, 'user_id');
     }
     
+=======
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 }

@@ -7,8 +7,13 @@
 
 @section('content')
 <div class="dashboard-wrapper pt-5">
+<<<<<<< HEAD
         <div class="container-fluid py-5">
                 <div class="row justify-content-center py-5">
+=======
+        <div class="container-fluid">
+                <div class="row justify-content-center">
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header"> Drafts</div>
@@ -22,8 +27,13 @@
 
 
                 <div class="panel panel-default">
+<<<<<<< HEAD
                     <div class="panel-heading p-0">
                     <a class="btn btn-sm btn-primary pull-left  mx-4 mt-4" href="{{ route('list_posts') }}">Return</a>
+=======
+                    <div class="panel-heading">
+                    <a class="btn btn-sm btn-primary pull-right" href="{{ route('list_posts') }}">Return</a>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
                     </div>
                     <div class="pt-3">
                             @if(session()->has('success'))
@@ -64,7 +74,11 @@
                                   <tbody>
                                     <tr>
 
+<<<<<<< HEAD
                                       <td><a href="{{route('edit_post',['id'=>$post->id])}}">{{$post->title}}</a></td>
+=======
+                                      <td><h3><a href="{{route('edit_post',['id'=>$post->id])}}">{{$post->title}}</a></h3></td>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
                                     <td>{{$post->created_at}}</td>
 
 

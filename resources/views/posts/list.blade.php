@@ -8,8 +8,13 @@
 @section('content')
 
 <div class="dashboard-wrapper pt-5">
+<<<<<<< HEAD
         <div class="container-fluid py-5">
                 <div class="row justify-content-center py-5">
+=======
+        <div class="container-fluid">
+                <div class="row justify-content-center">
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header"> List of Users</div>
@@ -51,7 +56,11 @@
                                                   </table>
 
 
+<<<<<<< HEAD
                                    
+=======
+                                    <div class="panel-body">
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
                                 </div>
                             </div>
@@ -61,6 +70,10 @@
             </div>
 
 </div>
+<<<<<<< HEAD
 
+=======
+@include('backend.layout.footer')
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
 @endsection

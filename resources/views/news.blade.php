@@ -18,6 +18,7 @@
 
 
 <section id="eventcarousel"  class="pt-5">
+<<<<<<< HEAD
         <div class="container-fluid pt-2">
 
                 
@@ -28,6 +29,29 @@
                       <div class="card">
                         <div class="card-body">
                           <h4 class="card-title">{{$post->title}}</h4>
+=======
+        <div class="container-fluid p-0 m-0 pt-2">
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner row w-100 mx-auto p-0 m-0 px-4">
+                    <div class="carousel-item col-md-4 active">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Card 1</h4>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
+                            a little bit longer.</p>
+                          <p class="card-text">
+                            <a href="#" >See More</a><br>
+                            <small class="text-muted ">Last updated 3 mins ago</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Card 2</h4>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
                           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
                             a little bit longer.</p>
                           <p class="card-text">
@@ -36,6 +60,7 @@
                           </p>
                         </div>
                       </div>
+<<<<<<< HEAD
                    
                     @endforeach
           
@@ -54,6 +79,88 @@
 
                 
 
+=======
+                    </div>
+                    <div class="carousel-item col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Card 3</h4>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
+                            a little bit longer.</p>
+                          <p class="card-text">
+                                <a href="#" >See More</a><br>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Card 4</h4>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
+                            a little bit longer.</p>
+                          <p class="card-text">
+                                <a href="#" >See More</a><br>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Card 5</h4>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
+                            a little bit longer.</p>
+                          <p class="card-text">
+                                <a href="#" >See More</a><br>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Card 6</h4>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
+                            a little bit longer.</p>
+                          <p class="card-text">
+                                <a href="#" >See More</a><br>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">Card 7</h4>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
+                            a little bit longer.</p>
+                          <p class="card-text">
+                                <a href="#" >See More</a><br>
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 text-center mt-4">
+                        <a class="btn btn-outline-secondary mx-1 prev" href="javascript:void(0)" title="Previous">
+                          <i class="fa fa-lg fa-chevron-left"></i>
+                        </a>
+                        <a class="btn btn-outline-secondary mx-1 next" href="javascript:void(0)" title="Next">
+                          <i class="fa fa-lg fa-chevron-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
               </div>
 
             </section>
@@ -232,6 +339,7 @@
 <section id="newscarousel" class="pt-5">
 
         <ul class="newscarousel ">
+<<<<<<< HEAD
             @foreach($highlightPosts as $highlightPost)
               <li class="col-md-2 p-0">
                   <div class="card">
@@ -249,6 +357,68 @@
             
                
                
+=======
+            <li class="col-md-2 p-0">
+                 <div class="card">
+            <img class="card-img-top" src="{{asset('img/Cover/cover1.jpg')}}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-2 p-0">
+                    <div class="card">
+               <img class="card-img-top" src="{{asset('img/Cover/cover1.jpg')}}" alt="Card image cap">
+                   <div class="card-body">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                   </div>
+                   <div class="card-footer">
+                     <small class="text-muted">Last updated 3 mins ago</small>
+                   </div>
+                 </div>
+               </li>
+               <li class="col-md-2 p-0">
+                    <div class="card">
+               <img class="card-img-top" src="{{asset('img/Cover/cover1.jpg')}}" alt="Card image cap">
+                   <div class="card-body">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                   </div>
+                   <div class="card-footer">
+                     <small class="text-muted">Last updated 3 mins ago</small>
+                   </div>
+                 </div>
+               </li>
+               <li class="col-md-2 p-0">
+                    <div class="card">
+               <img class="card-img-top" src="{{asset('img/Cover/cover1.jpg')}}" alt="Card image cap">
+                   <div class="card-body">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                   </div>
+                   <div class="card-footer">
+                     <small class="text-muted">Last updated 3 mins ago</small>
+                   </div>
+                 </div>
+               </li>
+               <li class="col-md-2 p-0">
+                    <div class="card">
+               <img class="card-img-top" src="{{asset('img/Cover/cover1.jpg')}}" alt="Card image cap">
+                   <div class="card-body">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                   </div>
+                   <div class="card-footer">
+                     <small class="text-muted">Last updated 3 mins ago</small>
+                   </div>
+                 </div>
+               </li>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
         </ul>
 </section>
 

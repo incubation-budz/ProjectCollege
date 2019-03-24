@@ -111,9 +111,12 @@ $('.particle').circleMagic({
   });
 
 
+<<<<<<< HEAD
  
 
 
+=======
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
 
   $(document).ready(function() {
@@ -135,6 +138,7 @@ $('.particle').circleMagic({
   });
 
 
+<<<<<<< HEAD
   $(document).ready(function() {
     $(".card-card").lightSlider({
 		item: 3,
@@ -153,10 +157,15 @@ $('.particle').circleMagic({
 	} );
   });
 
+=======
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
 
   $('#responsiveTabsDemo').responsiveTabs({
     startCollapsed: 'accordion'
 });
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e

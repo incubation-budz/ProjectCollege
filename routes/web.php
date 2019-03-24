@@ -34,6 +34,7 @@ Route::post('/general', 'GeneralController@store')
 
 
 
+<<<<<<< HEAD
 Route::get('news', [
     'uses' => 'Backend\BlogController1@post1',
     
@@ -43,6 +44,11 @@ Route::get('/{post}',  [
     'uses' => 'Backend\BlogController1@show',
     'as' => 'blog.show'
 ]);
+=======
+Route::get('news',function(){
+    return view('news');
+});
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
 Route::get('/blog','WelcomeController@blog');
 
@@ -56,7 +62,11 @@ Route::get('user','PostController@list');
 
 
 
+<<<<<<< HEAD
 Route::get('mba',function(){
+=======
+Route::get('/mba',function(){
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
     return view('mba');
 });
 Route::get('/mba-evening',function(){
@@ -76,6 +86,7 @@ Route::get('/bba-bi',function(){
     return view('bba-bi');
 });
 
+<<<<<<< HEAD
 
 
 
@@ -87,6 +98,8 @@ Route::get('/bba-bi',function(){
 
 
 
+=======
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 Auth::routes();
 
 Route::get('hello',function(){
@@ -151,6 +164,23 @@ Route::get('terminate',[
 ]);
 
 
+<<<<<<< HEAD
+=======
+Route::get('news', [
+    'uses' => 'Backend\BlogController1@post1',
+
+]);
+
+Route::get('/{post}',  [
+    'uses' => 'Backend\BlogController1@show',
+    'as' => 'blog.show'
+]);
+
+
+
+
+
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 Route::resource('/backend1/blog', 'Backend\BlogController1', [
     'names' => [
         'create' => 'backend1.blog.create',
@@ -158,8 +188,13 @@ Route::resource('/backend1/blog', 'Backend\BlogController1', [
         'edit' => 'backend1.blog.edit',
         'destroy' => 'backend1.blog.destroy',
         'store' => 'backend1.blog.store',
+<<<<<<< HEAD
         
         
+=======
+
+
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
     ]
 
 ]);
@@ -171,6 +206,7 @@ Route::resource('/backend1/heighlights', 'Backend\HighlightsController', [
         'edit' => 'backend1.heighlights.edit',
         'destroy' => 'backend1.heighlights.destroy',
         'store' => 'backend1.heighlights.store',
+<<<<<<< HEAD
         
         
     ]
@@ -183,4 +219,11 @@ Route::resource('/backend1/heighlights', 'Backend\HighlightsController', [
 
 
 
+=======
+
+
+    ]
+
+]);
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 

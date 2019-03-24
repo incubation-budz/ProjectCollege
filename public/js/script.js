@@ -14,6 +14,41 @@ function showLetter($letter,$word,$bool,$duration){$letter.addClass('in').remove
 if(!$bool){setTimeout(function(){hideWord($word)},animationDelay)}}}
 function takeNext($word){return(!$word.is(':last-child'))?$word.next():$word.parent().children().eq(0)}
 function takePrev($word){return(!$word.is(':first-child'))?$word.prev():$word.parent().children().last()}
+<<<<<<< HEAD
 function switchWord($oldWord,$newWord){$oldWord.removeClass('is-visible').addClass('is-hidden');$newWord.removeClass('is-hidden').addClass('is-visible')}})()});$('.numbers h4').each(function(){$(this).prop('Counter',0).animate({Counter:$(this).text()},{duration:900,easing:'swing',step:function(now){$(this).text(Math.ceil(now))},},{})});$('#home').circleMagic({elem:'#home',color:'rgba(255,255,255,.5)',radius:10,densety:0.1,clearOffset:0.2})
 
 
+=======
+function switchWord($oldWord,$newWord){$oldWord.removeClass('is-visible').addClass('is-hidden');$newWord.removeClass('is-hidden').addClass('is-visible')}})()});$('.numbers h4').each(function(){$(this).prop('Counter',0).animate({Counter:$(this).text()},{duration:900,easing:'swing',step:function(now){$(this).text(Math.ceil(now))},},{})});
+
+
+$('#home').ripples();
+
+
+$(function(){
+
+    $('#burger-menu2').click(function(){
+        $('.logo-burger').fadeOut();
+        $('.toggle-nav').fadeIn();
+        $('.burgerbar').trigger();
+    });
+
+
+
+
+})
+
+
+
+$(function(){
+
+
+    $(window).scroll(function(){
+        if($(window).scrollTop()>20){}
+        else{
+
+            $('.logo-burger').fadeIn();
+
+        }
+    })});
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e

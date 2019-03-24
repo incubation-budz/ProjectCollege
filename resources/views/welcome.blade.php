@@ -7,7 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+<<<<<<< HEAD
 
+=======
+    <link rel="icon" href="{{asset('/img/apexidentity.png')}}" type="image/gif" sizes="16x16">
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
 		<!--Font-->
 
@@ -43,7 +47,11 @@
 
 
 	<body>
+<<<<<<< HEAD
 	<div class="logohome">	 <a href="/" class="navbar-brand"><img src="img/logo.png" alt="logo" width="150" height="50"></a></div>
+=======
+	<div class="logohome">	 <a href="/" class="navbar-brand "><img src="img/logo.png" alt="logo" width="150" height="50" class="logo-burger"></a></div>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
 
 
@@ -202,7 +210,11 @@
 
 			</div>
 
+<<<<<<< HEAD
 
+=======
+            <span id="burger-menu2">&#9776;</span>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
 		<header>
 
@@ -273,6 +285,7 @@
 			</div> --}}
 
 	<div class="overlay"></div>
+<<<<<<< HEAD
 		<section id="home" >
 
 
@@ -282,6 +295,11 @@
 
 
 
+=======
+		<section id="home">
+
+		</section>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
 
 		<div class="text">
@@ -603,10 +621,17 @@
 									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>	<li><a href="#"><i class="fab fa-instagram"></i></a></li>	<li><a href="#"><i class="fab fa-youtube"></i></a></li>
 								</ul>
 								<p class=""><a href="">Check Out Our Social Media</a></p>
+<<<<<<< HEAD
 								</div>
 
 							<div class="logo position-relative ml-3" >
 								<a href="#"><img src="img/logo.png" alt="logo" class="img-fluid" height="80"></a>
+=======
+							</div>
+
+							<div class="logo position-relative" >
+								<a href="#"><img src="img/logo.png" alt="logo" class="img-fluid" width="150"></a>
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 							</div>
 
 
@@ -643,10 +668,19 @@
 
 
 
+<<<<<<< HEAD
 
 
 		<!--Jquery-->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+=======
+		<!--Jquery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="js/jquery.ripples.js"></script>
+
+
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 
         <!--materalized js-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

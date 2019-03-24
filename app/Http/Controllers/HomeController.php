@@ -23,6 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
+<<<<<<< HEAD
         return view('backend1.home');
+=======
+        return view('home');
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
     }
 }
