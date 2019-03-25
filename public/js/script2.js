@@ -113,6 +113,9 @@ $('.particle').circleMagic({
 
 
 
+
+
+
   $(document).ready(function() {
     $(".newscarousel").lightSlider({
 		item: 5,
@@ -132,8 +135,28 @@ $('.particle').circleMagic({
   });
 
 
+  $(document).ready(function() {
+    $(".card-card").lightSlider({
+		item: 3,
+		slideMove: 1,
+        mode: "slide",
+		 speed: 400, //ms'
+        auto: true,
+        loop: true,
+        slideEndAnimation: true,
+        pause: 2000,
+
+        keyPress: false,
+        controls: true,
+        prevHtml: '',
+        nextHtml: '',
+	} );
+  });
+
 
 
   $('#responsiveTabsDemo').responsiveTabs({
     startCollapsed: 'accordion'
 });
+
+

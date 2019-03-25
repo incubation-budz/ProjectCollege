@@ -8,8 +8,8 @@
 @section('content')
 
 <div class="dashboard-wrapper pt-5">
-        <div class="container-fluid">
-                <div class="row justify-content-center">
+        <div class="container-fluid py-5">
+                <div class="row justify-content-center py-5">
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header"> Posts</div>
@@ -67,7 +67,7 @@
                                                         </div>
 
                                                         <div class="form-group">
-                                                            <div class="col-md-6 col-md-offset-4">
+                                                            <div class="col-md-6 pt-4">
                                                                 <button type="submit" class="btn btn-primary">
                                                                     Create
                                                                 </button>
@@ -88,6 +88,5 @@
             </div>
 
 </div>
-@include('backend.layout.footer')
 
 @endsection

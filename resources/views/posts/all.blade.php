@@ -8,8 +8,8 @@
 @section('content')
 
 <div class="dashboard-wrapper pt-5">
-        <div class="container-fluid">
-                <div class="row justify-content-center">
+        <div class="container-fluid py-5">
+                <div class="row justify-content-center py-5">
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header">All Post </div>
@@ -22,11 +22,11 @@
                                 @endif
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
+                                    <div class="panel-heading p-0 ">
 
 
                                         @can('create-post')
-                                    <a class="pull-right btn btn-sm btn-primary" href="{{route('create_post')}}">New</a>
+                                    <a class="pull-left btn btn-sm btn-primary m-5" href="{{route('create_post')}}">New</a>
                                         @endcan
                                     </div>
                                     <div class="pt-3">
@@ -63,7 +63,7 @@
                                                                   <tbody>
                                                                     <tr>
 
-                                                                      <td><h3><a href="{{route('edit_post',['id'=>$post->id])}}">{{$post->title}}</a></h3></td>
+                                                                      <td><a href="{{route('edit_post',['id'=>$post->id])}}">{{$post->title}}</a></td>
                                                                     <td>{{$post->created_at}}</td>
                                                                     <td> {{$post->name}}</td>
                                                                       @can('publish-post',$post)

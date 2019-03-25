@@ -12,70 +12,6 @@
 */
 
 
-Route::get('/','WelcomeController@index');
-
-
-Route::get('faculty',function(){
-    return view('inside');
-});
-
-
-// homepage--Routes
-
-Route::get('general','GeneralController@index')
-->name('list-general');
-
-Route::post('/general', 'GeneralController@store')
-->name('store_element');
-
-
-
-
-
-
-
-Route::get('news',function(){
-    return view('news');
-});
-
-Route::get('/blog','WelcomeController@blog');
-
-
-Route::get('admin',function(){
-    return view('backend.index');
-});
-Route::get('user','PostController@list');
-
-
-
-
-
-Route::get('/mba',function(){
-    return view('mba');
-});
-Route::get('/mba-evening',function(){
-    return view('mbaEve');
-});
-Route::get('/bcis',function(){
-    return view('bcis');
-});
-Route::get('/bba',function(){
-    return view('bba');
-});
-Route::get('/bba-tt',function(){
-    return view('bba-tt');
-});
-
-Route::get('/bba-bi',function(){
-    return view('bba-bi');
-});
-
-Auth::routes();
-
-Route::get('hello',function(){
-    return view('hello');
-});
-
 Route::get('all','PostController@all');
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -122,6 +58,60 @@ Route::get('/general/post/{id}', 'GeneralController@delete')
 ->name('delete_general');
 
 
+Route::get('/','WelcomeController@index');
+
+
+Route::get('faculty',function(){
+    return view('inside');
+});
+
+
+// homepage--Routes
+
+Route::get('general','GeneralController@index')
+->name('list-general');
+
+Route::post('/general', 'GeneralController@store')
+->name('store_element');
+
+
+
+
+
+
+
+Route::get('news',function(){
+    return view('news');
+});
+
+Route::get('/blog','WelcomeController@blog');
+
+
+Route::get('admin',function(){
+    return view('backend.index');
+});
+Route::get('user','PostController@list');
+
+
+
+
+
+
+
+
+
+
+
+
+
+Auth::routes();
+
+Route::get('hello',function(){
+    return view('hello');
+});
+
+
+
 Route::get('Register',[
     'middleware'=>'admin',
 
@@ -139,7 +129,7 @@ Route::get('news', [
 
 ]);
 
-Route::get('/{post}',  [
+Route::get('show/{post}',  [
     'uses' => 'Backend\BlogController1@show',
     'as' => 'blog.show'
 ]);
@@ -173,4 +163,34 @@ Route::resource('/backend1/heighlights', 'Backend\HighlightsController', [
     ]
 
 ]);
+
+
+
+
+
+
+
+Route::get('/mba',function(){
+    return view('mba');
+});
+Route::get('/mba-evening',function(){
+    return view('mbaEve');
+});
+Route::get('/bcis',function(){
+    return view('bcis');
+});
+Route::get('/bba',function(){
+    return view('bba');
+});
+Route::get('/bba-tt',function(){
+    return view('bba-tt');
+});
+
+Route::get('/bba-bi',function(){
+    return view('bba-bi');
+});
+
+
+
+
 

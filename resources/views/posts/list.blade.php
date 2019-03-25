@@ -8,8 +8,8 @@
 @section('content')
 
 <div class="dashboard-wrapper pt-5">
-        <div class="container-fluid">
-                <div class="row justify-content-center">
+        <div class="container-fluid py-5">
+                <div class="row justify-content-center py-5">
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header"> List of Users</div>
@@ -51,7 +51,7 @@
                                                   </table>
 
 
-                                    <div class="panel-body">
+
 
                                 </div>
                             </div>
@@ -61,6 +61,5 @@
             </div>
 
 </div>
-@include('backend.layout.footer')
 
 @endsection

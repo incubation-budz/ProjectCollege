@@ -15,7 +15,6 @@ class CreateMbasTable extends Migration
     {
         Schema::create('mbas', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('');
             $table->timestamps();
         });
     }

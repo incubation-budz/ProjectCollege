@@ -10,8 +10,8 @@
 
 
                 <div class="dashboard-wrapper pt-5">
-                        <div class="container-fluid">
-                                <div class="row justify-content-center">
+                        <div class="container-fluid pt-5">
+                                <div class="row justify-content-center pt-5">
                                     <div class="col-md-12">
                                         <div class="card">
                                             <div class="card-header"> Edit</div>
@@ -87,6 +87,6 @@
         </div>
     </div>
 
-@include('backend.layout.footer')
+
 
 @endsection

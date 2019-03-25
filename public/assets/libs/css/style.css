@@ -1936,8 +1936,12 @@ Container / Wrapper
 
 .dashboard-main-wrapper {
     min-height: 100%;
+<<<<<<< HEAD
+
+=======
     padding-top: 60px;
     position: relative;
+>>>>>>> 662bf1ce9fd0fb74e79475202b9a3e050553352e
 }
 
 .dashboard-wrapper {

@@ -58,4 +58,15 @@ class User extends Authenticatable
     {
         return $this->roles()->where('slug',$roleSlug)->count()==1;
     }
+
+    public function posts()
+    {
+        return $this->hasMany(NewsEvent::class, 'user_id');
+    }
+
+    public function postss()
+    {
+        return $this->hasMany(NewsEvent1::class, 'user_id');
+    }
+
 }
